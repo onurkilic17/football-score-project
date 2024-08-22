@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('stadyum.jpg'); /* Arka plan resmi */
+    background-size: cover; /* Resmin boyutunu sayfayı kaplatma */
+    background-position: center; /* ortala */
+    background-repeat: no-repeat; /* Resmin tekrar etmesini engelle */
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.team {
+    background-color: rgba(39, 174, 96, 0.8); /* şeffaf arka plan */
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px;
+}
+
+h2 {
+    font-size: 1.8em;
+}
+
+button {
+    margin: 10px 0;
+    padding: 10px 15px;
+    font-size: 1em;
+    background-color: #2d17c1;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #11076b;
+}
